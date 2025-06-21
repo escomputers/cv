@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+INSTRUCTIONS FOR PRINTING:
+- use Chrome default option "Save as PDF" (print page command)
+- do not set margins at all
+- no background graphics
+-->
+
+
+<!--begin::Head-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Emiliano Spada's CV</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Emiliano Spada's CV" />
+  <meta name="author" content="Emiliano Spada" />
+
+  <!--begin::Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&display=swap" rel="stylesheet" />
+  <!--end::Fonts-->
+
+  <!--begin::CSS-->
+  <link rel="stylesheet" href="static/css/adminlte.css" />
+
+  <!--Bootstrap blog theme-->
+  <link href="static/css/blog.css" rel="stylesheet" />
+  <!--end::CSS-->
+
+  <!--begin::Fontawesome icons-->
+  <link href="static/css/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+  <link href="static/css/fontawesome/css/brands.min.css" rel="stylesheet" />
+  <link href="static/css/fontawesome/css/solid.min.css" rel="stylesheet" />
+  <!--end::Fontawesome icons-->
+
+  <!--begin::Custom CSS for printable version-->
+  <style>
+    @media print {
+
+      html,
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      @page {
+        size: A4;
+        /* margin: 15mm; */
+      }
+    }
+
+    .time-label>span {
+      /* smaller text */
+
+      font-size: 0.85rem;
+      /* less inner spacing */
+
+      padding: 2px 6px;
+      /* reduces line height */
+
+      line-height: 1.2;
+      /* optional: less rounded corners */
+
+      border-radius: 4px;
+      /* less spacing below */
+
+      margin-bottom: 4px;
+    }
+
+    .favourite-quote {
+      /* less spacing around */
+      padding: 0.75rem 1rem;
+
+      /* slightly smaller text */
+      font-size: 0.95rem;
+    }
+
+
+    /* reduce quote text size */
+    .blockquote p {
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+  <!--end::Custom CSS for printable version-->
+</head>
+<!--end::Head-->
+
+<!--begin::Body-->
+
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+
+  <!--begin::App Wrapper-->
+  <div class="app-wrapper">
+
+    <!--begin::Header-->
+    <nav class="app-header navbar navbar-expand bg-body">
+      <!--begin::Container-->
+      <div class="container-fluid">
+        <div class="row">
+
+          <!--begin::Profile section-->
+          <div class="col-5 border-end pe-4">
+            <div class="card card-primary card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="user-image rounded-circle" src="static/images/profile_pic_resized.jpg"
+                    alt="Profile picture" />
+                </div>
+
+                <h3 class="profile-username text-center mt-3">Emiliano Spada</h3>
+
+                <p class="text-muted text-center">
+                  Cloud Native Engineer - Python Developer
+                </p>
+
+                <ul class="list-group list-group-flush mb-3 text-md-start text-center">
+                  <li
+                    class="list-group-item d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                    <a href="https://www.linkedin.com/in/emiliano-spada/?locale=en_US" class="alert-link">LinkedIn</a>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                    <a href="https://github.com/escomputers" class="alert-link">GitHub</a>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                    <i class="fa-solid fa-envelope fa-lg"></i>
+                    <a href="mailto:spadae@proton.me" class="alert-link">spadae@proton.me</a>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                    <i class="fa-solid fa-phone-flip fa-lg"></i>
+                    <a href="tel:+393936926490" class="alert-link">+393936926490</a>
+                  </li>
+                </ul>
+
+
+                <div class="card p-2 small-text">
+                  <i class="fa-solid fa-language me-1"></i>
+                  <p class="mb-1">
+                    Italian
+                    <span class="badge bg-primary">Native Speaker</span>
+                  </p>
+                  <p class="mb-0">
+                    English
+                    <span class="badge bg-primary">B2</span>
+                  </p>
+                </div>
+
+              </div>
+              <!--end::card-body box-profile-->
+            </div>
+            <!--end::card card-primary card-outline-->
+          </div>
+          <!--end::Profile section-->
+
+          <!--begin::Presentation + Favourite Quote sections-->
+          <div class="col-7 ps-4">
+            <div class="card card-primary card-outline">
+
+              <div class="card-header">
+                <h3 class="card-title mb-0">Presentation</h3>
+              </div>
+
+              <div class="card-body">
+                <p>
+                  I've always believed that a person's character and behavior are more important
+                  than their education or work experience.
+                  <br>
+                  They certainly play a key role, but I consider them not as important as the first ones.
+                </p>
+
+                <p class="mb-1">
+                  Throughout my career, I've continuously found evidence supporting this belief.
+                  <br>
+                  I strive to be:
+                </p>
+                <ul>
+                  <li>collaborative</li>
+                  <li><em>humble</em></li>
+                  <li>thoughtful yet pragmatic</li>
+                  <li><em>meticulous with small details</em></li>
+                  <li>and, last but not least, endlessly <strong>curious</strong> and <strong>eager to learn</strong>,
+                    not only in my professional life, but in everyday situations as well.
+                  </li>
+                </ul>
+
+                <p>
+                  The combination of these traits has consistently given me advantages,
+                  making me more flexible, adaptive and effective.
+                </p>
+              </div>
+
+            </div>
+            <!--end::card card-primary card-outline-->
+            <!--end::Presentation-->
+
+            <!--begin::Favourite Quote-->
+            <div class="card favourite-quote mt-2 text-center">
+              <figure class="blockquote-container mb-0">
+                <blockquote class="blockquote mb-2">
+                  <p>
+                    <em>
+                      "The important thing is not to stop questioning.
+                      <br>
+                      Curiosity has its own reason for existing."
+                    </em>
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer mt-0 mb-0 text-body-secondary small">
+                  Albert Einstein in <cite title="Life Magazine, May 2, 1955">Life Magazine, May 2, 1955</cite>
+                </figcaption>
+              </figure>
+            </div>
+            <!--end::Favourite Quote-->
+
+          </div>
+          <!--end::Presentation + Favourite Quote section-->
+        </div>
+        <!--end::row-->
+      </div>
+      <!--end::Container-->
+    </nav>
+    <!--end::Header-->
+
+    <!--begin::App Main-->
+    <main class="app-main">
+
+      <!--begin::App Content Header-->
+      <div class="app-content-header">
+
+        <!--begin::Container-->
+        <div class="container-fluid">
+
+          <!--begin::Certifications + Interests sections-->
+          <div class="row">
+            <!--begin::Certifications section-->
+            <div class="col-12">
+              <div class="card card-primary card-outline">
+                <div class="card-header">
+                  <h3 class="card-title mb-0">Certifications</h3>
+                </div>
+                <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <!-- CKA -->
+                    <li class="list-group-item d-flex align-items-center">
+                      <img src="static/images/cka.png" alt="cka" width="48" height="48" class="me-3">
+                      <div>
+                        <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/28df3586-0f42-4a5e-8f6e-df6b7c4568c0-emiliano-spada-bcb06e8b-8a4c-4fce-ae9d-972cce24bbdf-certificate.pdf"
+                          class="fw-bold text-decoration-none" target="_blank">
+                          Certified Kubernetes Administrator (CKA)
+                        </a>
+                        <div class="text-muted small">Score: 91/100</div>
+                      </div>
+                    </li>
+
+                    <!-- CKAD -->
+                    <li class="list-group-item d-flex align-items-center">
+                      <img src="static/images/ckad.png" alt="ckad" width="48" height="48" class="me-3">
+                      <div>
+                        <span class="fw-bold">Certified Kubernetes Application Developer (CKAD)</span>
+                        <div class="text-muted small">Exam scheduled: 26 June 2025</div>
+                      </div>
+                    </li>
+
+                    <!-- CKS -->
+                    <li class="list-group-item d-flex align-items-center">
+                      <img src="static/images/cks.png" alt="cks" width="48" height="48" class="me-3">
+                      <div>
+                        <span class="fw-bold">Certified Kubernetes Security Specialist (CKS)</span>
+                        <div class="text-muted small">Course in progress</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--end::Certifications section-->
+
+          </div>
+          <!--end::Certifications + Interests sections-->
+
+          <!--Intentionally added for printing purposes-->
+          <div style="height: 40px;"></div>
+
+          <!--begin::Work Experience header-->
+          <div class="row">
+            <div class="col mt-5">
+              <h3 class="mb-0">Work Experience</h3>
+            </div>
+          </div>
+          <!--end::Work Experience header-->
+
+        </div>
+        <!--end::Container-->
+      </div>
+      <!--end::App Content Header-->
+
+      <!--begin::App Content-->
+      <div class="app-content">
+        <!--begin::Container-->
+        <div class="container-fluid">
+
+          <!--begin::Timeline section-->
+          <div class="row">
+            <div class="col-12">
+              <div class="timeline">
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-primary">Aug. 2023 - Present</span>
+                  <span class="text-bg-primary">Full Remote</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-envelope text-bg-primary"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="https://makeamark.spindox.it/en/spindox-make-a-mark/">Spindox S.p.A.</a>
+                      &nbsp; Cloud Native Engineer
+                    </h3>
+
+                    <div class="timeline-body">
+
+                      <p class="text-muted mb-1">
+                        <span class="badge bg-secondary me-1">Client: Carnival Corporation</span>
+                        World's largest cruise operator
+                      </p>
+
+                      <p>
+                        I currently work within the Global Maritime Information System department, which manages the
+                        entire corporation's infrastructure, composed of a combined fleet of over a hundred vessels
+                        across tens of cruise line brands.
+                        <br>
+                        My main role is to ensure that all Kubernetes clusters on Azure and on-board (VMware) are
+                        secure,
+                        up-to-date and healthy.
+                      </p>
+
+                      <h5 class="fw-bold mt-3">DevOps</h5>
+                      <ul class="mb-3">
+                        <div class="mb-2">
+                          <li>
+                            Constantly collaborate with development and release teams when it comes to Kubernetes
+                            environment.
+                          </li>
+                        </div>
+
+                        <li>
+                          Troubleshoot every possible issue that applications could encounter, from deployment pipeline
+                          issues (on Azure DevOps) to runtime problems.
+                        </li>
+                      </ul>
+
+                      <h5 class="fw-bold">Day 1 Ops</h5>
+                      <ul class="mb-3">
+                        <div class="mb-2">
+                          <li>
+                            Provision and configure new Kubernetes clusters using Infrastructure as Code
+                            (Terraform and Ansible Automation Platform), including critical add-ons,
+                            such as distributed storage, private container registry and load balancers,
+                            to deliver a production-ready environment tailored to business requirements.
+                          </li>
+                        </div>
+
+                        <div class="mb-2">
+                          <li>
+                            Integrate and deploy new services that enhance clusters' capabilities and
+                            satisfy evolving business requirements (e.g. KEDA, InfluxDb, Grafana).
+                          </li>
+                        </div>
+
+                        <li>
+                          Design and deploy containerized cluster services to fulfill specific operational
+                          needs (e.g. a secure file transfer service across all the clusters),
+                          ensuring compliance with corporate security policies.
+                        </li>
+                      </ul>
+
+                      <h5 class="fw-bold">Day 2 Ops</h5>
+                      <ul>
+                        <div class="mb-2">
+                          <li>
+                            Perform periodic updates of Kubernetes clusters along with essential system-level
+                            components,
+                            minimizing downtime and ensuring system reliability, security and version consistency across
+                            all environments.
+                          </li>
+                        </div>
+
+                        <div class="mb-2">
+                          <li>
+                            Continuously and proactively monitor clusters and workloads to instantly identify and fix
+                            issues or escalate to vendors where necessary.
+                          </li>
+                        </div>
+
+                        <div class="mb-2">
+                          <li>
+                            Design and assess resource optimization strategies, to prevent over- and under-provisioning
+                            and reduce cloud spend without affecting performance.
+                          </li>
+                        </div>
+
+                        <li>
+                          Review Orca/Qualys vulnerability scan reports and validate security patching plans
+                          for keeping the entire infrastructure secure and up-to-date.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+                <!--Intentionally added for printing purposes-->
+                <div style="height: 50px;"></div>
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-success">Aug. 2022 - Aug. 2023</span>
+                  <span class="text-bg-success">Full Remote</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-camera text-bg-success"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="https://www.kiratech.it/en/">Kiratech S.p.A.</a> &nbsp; Cloud Native Engineer
+                    </h3>
+
+                    <div class="timeline-body">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <!--begin::customer-->
+
+                          <p class="text-muted mb-1">
+                            <span class="badge bg-secondary me-1">Client: CSI Piemonte S.p.A.</span>
+                            Public consortium providing IT services for public administration
+                            in the Piedmont region (Italy)
+                          </p>
+
+                          <p class="mb-1 mt-1">
+                            I provided best practices and security recommendations
+                            for provisioning and maintaining a cluster of HashiCorp Vault nodes, specifically I:
+                          </p>
+
+                          <ul>
+                            <li>
+                              hardened cluster nodes and bash scripts
+                            </li>
+
+                            <li>
+                              automatic updates
+                            </li>
+
+                            <li>
+                              automated leader election for reliable failover
+                            </li>
+
+                            <li>
+                              enabled auto unseal
+                            </li>
+
+                            <li>
+                              implemented a robust backup and restore strategy
+                            </li>
+
+                          </ul>
+
+                        </li>
+                        <!--end::customer-->
+
+                        <!--begin::customer-->
+                        <li class="list-group-item">
+                          <p class="text-muted mb-1">
+                            <span class="badge bg-secondary me-1">Client: Intesa San Paolo S.p.A.</span>
+                            One of the largest European banking groups
+                          </p>
+
+                          <p class="mb-1 mt-1">
+                            Maintained, extended and optimized a highly available HashiCorp Vault
+                            infrastructure, fully compliant with the PCI DSS standard.
+                            <br>
+                            More specifically, I:
+                          </p>
+
+                          <ul>
+                            <li>
+                              integrated Vault into CI/CD pipeline (Jenkins)
+                            </li>
+
+                            <li>
+                              retrieved secrets from Vault for OpenShift workloads
+                            </li>
+
+                            <li>
+                              provided suggested metrics for monitoring cluster's health and set up alerting
+                            </li>
+
+                            <li>
+                              set up the disaster recovery procedure
+                            </li>
+
+                            <li>
+                              Hardware Security Module integration
+                            </li>
+
+                            <li>
+                              created Ansible playbooks to manage the entire Vault nodes' lifecycle
+                              (hardening, provisioning, PKI setup, basic configuration, updating, uninstalling)
+                            </li>
+
+                            <li>
+                              implemented a centralized web dashboard to monitor license limits, count active entities
+                              and alert stakeholders when thresholds are reached
+                            </li>
+                          </ul>
+                          <!--end::customer-->
+                        </li>
+
+                        <!--begin::customer-->
+                        <li class="list-group-item">
+                          <p class="text-muted mb-1">
+                            <span class="badge bg-secondary me-1">Client: YOOX Net-a-Porter Group S.p.A.</span>
+                            Global luxury fashion e-commerce
+                          </p>
+
+                          <p class="mb-1 mt-1">
+                            As HashiCorp Vault consultant my task was to foster the adoption of a Global Secrets
+                            Management
+                            Solution across all enterprise departments.
+                            <br>
+                            Specifically, I:
+                          </p>
+                          <ul>
+                            <li>
+                              kept the entire Vault HA infrastructure (comprising 30 EC2 nodes)
+                              updated, healthy and secure
+                            </li>
+
+                            <li>
+                              maintained a custom credentials broker that interacts with Vault
+                              and Jenkins credentials store
+                            </li>
+
+                            <li>
+                              observed Vault infrastructure using Splunk (for credentials auditing)
+                            </li>
+
+                            <li>
+                              created AWS Lambda functions for automating recurring operations, such as
+                              moving secrets between namespaces and clusters and retrieving detailed usage
+                              information
+                            </li>
+
+                            <li>
+                              onboarded internal teams onto GSMS, collaborated with engineering,
+                              InfoSec and DevOps stakeholders to gather requirements,
+                              define access controls and provision isolated namespaces with appropriate policies
+                            </li>
+                          </ul>
+                        </li>
+                        <!--end::customer-->
+
+                        <!--Intentionally added for printing purposes-->
+                        <div style="height: 40px;"></div>
+
+                        <!--begin::customer-->
+                        <li class="list-group-item">
+                          <p class="text-muted mb-1">
+                            <span class="badge bg-secondary me-1">Client: Punch Torino S.p.A.</span>
+                            Engineering company specialized in automotive systems,
+                            formerly the Italian General Motors Engineering Center
+                          </p>
+
+                          <p class="mb-1 mt-1">
+                            As AWS consultant, I assisted the customer in navigating the complexities of the
+                            cloud ecosystem, by providing tailored and technical guidance on infrastructure, security
+                            and automation.
+                            Specifically, I:
+                          </p>
+
+                          <ul>
+                            <li>
+                              designed and implemented a centralized backup and disaster recovery solution
+                              using AWS Backup across EC2, EBS and RDS resources
+                            </li>
+
+                            <li>
+                              managed the Atlassian suite lifecycle, including provisioning, configuration,
+                              restoration from backup, periodic updates, integration with OpenSearch
+                            </li>
+
+                            <li>
+                              PostgreSQL RDS and OpenSearch upgrades
+                            </li>
+
+                            <li>
+                              set up autoscaling for EC2 nodes hosting Atlassian apps
+                            </li>
+
+                            <li>
+                              Application load balancers (L7) configuration
+                            </li>
+
+                            <li>
+                              monitored cloud spend and set up alerts
+                            </li>
+
+                            <li>
+                              CI/CD platform (CloudBees) migration and upgrade on EKS
+                            </li>
+
+                            <li>
+                              designed and deployed log processing pipelines using BanzaiCloud Logging
+                              Operator in Kubernetes to normalize, parse and enrich application logs
+                              before forwarding them to Elasticsearch
+                            </li>
+                          </ul>
+                        </li>
+                        <!--end::customer-->
+
+                        <!--begin::customer-->
+                        <li class="list-group-item">
+                          <p class="text-muted mb-1">
+                            <span class="badge bg-secondary me-1">Client: Euronext N.V.</span>
+                            Main European stock exchange operator
+                          </p>
+
+                          <p class="mb-1 mt-1">
+                            Led the adoption of HashiCorp Vault on OpenShift clusters running on IBM Power nodes.
+                            <br>
+                            Overcame architectural compatibility issues and aligned Vault’s deployment
+                            with platform constraints, across diverse containerized environments.
+                          </p>
+                        </li>
+
+                        <!--end::customer-->
+
+                        <!--begin::customer-->
+                        <li class="list-group-item">
+                          <p class="text-muted mb-1">
+                            <span class="badge bg-secondary me-1">Client: Alpitour S.p.A.</span>
+                            Italy’s leading travel and tourism group
+                          </p>
+
+                          <p class="mb-1">
+                            I provided on-call support for OpenShift environments.
+                            <br>
+                            Specifically, I:
+                          </p>
+
+                          <ul>
+                            <li>
+                              diagnosed and fixed incidents involving production workloads
+                              within defined SLAs (often in war room sessions)
+                            </li>
+                            <li>
+                              used Dynatrace for monitoring, alerting and root cause analysis
+                            </li>
+
+                            <li>
+                              post-incident reviews to define precautionary actions to improve platform resilience
+                            </li>
+                          </ul>
+                        </li>
+                        <!--end::customer-->
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!--Intentionally added for printing purposes-->
+                  <div style="height: 275px;"></div>
+
+                </div>
+                <!--end::timeline item -->
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-info">June 2017 - April 2022</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-camera-film text-bg-info"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="#">
+                        Arpanet Italia S.r.l. -
+                      </a>
+                      <a href="https://maps.app.goo.gl/1GSGRB7oyHW8kbBG7">
+                        Milan (Italy)
+                      </a>
+                      &nbsp;Founder, Managing Director and Network Engineer
+                    </h3>
+
+                    <div class="timeline-body">
+                      <p class="mb-1 mt-1">
+                        Founded and managed a Wireless Internet Service Provider, providing high speed internet
+                        access in both urban and remote areas to individuals, businesses and public institutions.
+                        <br>
+                        From a small customer base, I assisted the exponential growth towards thousands of customers
+                        and tens of Points of Presence countrywide.
+                        <br>
+                        Specifically, I was responsible for:
+                      </p>
+
+                      <ul>
+                        <li>
+                          designing and building the entire network infrastructure from scratch
+                        </li>
+
+                        <li>
+                          fault management, QoS, service assurance and delivery
+                        </li>
+
+                        <li>
+                          automating the provisioning and configuration of network devices
+                          (Mikrotik, Juniper, Ubiquiti) using Python, Terraform and AWS
+                        </li>
+
+                        <li>
+                          leading a development team for creating an all-in-one
+                          ERP solution for ISPs using Django, Bootstrap and jQuery (CRM, CMS,
+                          customers/employees management, simple and
+                          recurring billing system, ticketing system, financial reporting)
+                        </li>
+
+                        <li>
+                          the financial, commercial, accounting and tax management of the company
+                          (extensive use of Microsoft Word and Excel)
+                        </li>
+
+                        <li>
+                          management of customers and relations with suppliers
+                        </li>
+
+                        <li>
+                          employees management and workplace safety
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-warning">May 2010 - May 2013</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-camera-film text-bg-warning"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="#">
+                        Escomputers -
+                      </a>
+                      <a href="#">
+                        Acate (Italy)
+                      </a>
+                      &nbsp; Founder and Owner
+                    </h3>
+
+                    <div class="timeline-body">
+                      <p class="mb-1 mt-1">
+                        My first experience as a tech entrepreneur was with a small one-person business
+                        specialized in:
+                      </p>
+
+                      <ul>
+                        <li>
+                          sale of computers and smartphones along with hardware and software assistance
+                        </li>
+
+                        <li>
+                          website development using Django and Bootstrap
+                        </li>
+
+                        <li>
+                          installation and maintenance of security and IP video surveillance systems for
+                          individuals, businesses and public institutions
+                        </li>
+
+                        <li>
+                          network optimization and IT support (both hardware and software solutions)
+                          for medium to large infrastructures, including local businesses, schools and municipalities
+                        </li>
+
+                        <li>
+                          management of customers, employees and suppliers
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-danger">July 2013 - July 2014</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-camera-film text-bg-danger"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="#">
+                        A.C.F. S.r.l. -
+                      </a>
+                      <a href="#">
+                        Acate (Italy)
+                      </a>
+                      &nbsp; Telecommunications Field Technician
+                    </h3>
+
+                    <div class="timeline-body">
+
+                      <p class="mb-1 mt-1">
+                        My first job in ICT field, providing technical on-site support on public
+                        telecommunications infrastructure to ensure customer connectivity:
+                      </p>
+
+                      <ul>
+                        <li>
+                          installation of ADSL, SHDSL, POTS-RTG, VoIP, ISDN lines on behalf of major Italian ISPs
+                          (Vodafone, TIM Group, Wind Telecom etc)
+                        </li>
+
+                        <li>
+                          fault repair across all layers of the public telephone network,
+                          from PSTN central offices to roadside distribution cabinets and junction boxes, up to customer
+                          premises
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+              </div>
+            </div>
+            <!--end::col-12 -->
+          </div>
+          <!--end::Timeline section-->
+        </div>
+        <!--end::Container-->
+      </div>
+      <!--end::App Content-->
+
+      <!--begin::App Content Header-->
+      <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+
+          <!--begin::Skills Map header-->
+          <div class="row">
+            <div class="col-12">
+              <h3 class="mb-0">Skills Map</h3>
+            </div>
+          </div>
+          <!--end::Skills Map header-->
+        </div>
+        <!--end::Container-->
+      </div>
+      <!--end::App Content Header-->
+
+      <!--begin::App Content-->
+      <div class="app-content mt-1">
+        <!--begin::Container-->
+        <div class="container-fluid">
+          <!--begin::Skills Map section-->
+          <div class="row">
+
+            <!--First table on the left-->
+            <div class="col-6">
+              <table class="table table-sm w-100" style="table-layout:fixed;">
+                <colgroup>
+                  <col style="width:55%;">
+                  <col style="width:45%;">
+                </colgroup>
+                <tbody>
+
+                  <!--Intentionally added for printing purposes-->
+                  <div style="height: 40px;"></div>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Operating Systems</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>GNU Linux</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Windows</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 60%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Infrastructure as Code</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Terraform</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td style="font-size: 0.90rem;">Ansible Automation Platform</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Cloud Providers</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>AWS</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Azure</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>GCP</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 50%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Containers Orchestration</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Kubernetes</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>K3S</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>OpenShift</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 60%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Rancher/RKE</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Complementary Components</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Harbor Registry</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Longhorn</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Velero</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Tyk</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>HAProxy</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Helm/Kustomize</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>GitOps & CI/CD</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Git</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>GitHub</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>GitLab</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Bitbucket</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 65%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Azure DevOps</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 65%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Jenkins</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>ArgoCD</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 50%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Project Management</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Jira</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Confluence</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Databases</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>MariaDB Galera</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>PostgreSQL</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>MySQL</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>MongoDB</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>DynamoDB</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!--Second table on the right-->
+            <div class="col-6">
+              <table class="table table-sm w-100" style="table-layout:fixed;">
+                <colgroup>
+                  <col style="width:55%;">
+                  <col style="width:45%;">
+                </colgroup>
+                <tbody>
+
+                  <!--Intentionally added for printing purposes-->
+                  <div style="height: 40px;"></div>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Virtualization & Containerization</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>VMware vSphere</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Nutanix</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 60%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Docker</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 85%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Podman</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Buildah</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Programming & Web</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Python</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Bash</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Golang</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 40%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>JavaScript</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 50%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>HTML5</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>CSS</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 65%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Django</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>RouterOS</td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Monitoring & Observability</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Dynatrace</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Splunk</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Fluentd</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Prometheus & Grafana</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Secrets and Identity</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>HashiCorp Vault</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr class="table-active">
+                    <td colspan="2"><strong>Security Tools</strong></td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Snyk</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Trivy</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>GitGuardian</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Checkov</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 75%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Qualys</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Orca Security</td>
+                    <td>
+                      <div class="progress progress-xs w-100">
+                        <div class="progress-bar bg-primary" style="width: 70%"></div>
+                      </div>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+          <!--end::Skills Map section-->
+        </div>
+        <!--end::Container-->
+      </div>
+      <!--end::App Content-->
+
+      <!--begin::App Content Header-->
+      <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+
+          <!--begin::Education header-->
+          <div class="row">
+            <div class="col-12">
+              <h3 class="mt-3">Education</h3>
+            </div>
+          </div>
+          <!--end::Education header-->
+        </div>
+        <!--end::Container-->
+      </div>
+      <!--end::App Content Header-->
+
+      <!--begin::App Content-->
+      <div class="app-content">
+        <!--begin::Container-->
+        <div class="container-fluid">
+
+          <!--begin::Education section (another timeline) -->
+          <div class="row">
+            <div class="col-12">
+              <!--begin::Timeline section-->
+              <div class="timeline">
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-primary">Jan. 2009 - Jan. 2010</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-envelope text-bg-primary"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="#">
+                        Radio Elettra Private School - Rome (Italy)
+                      </a>
+                    </h3>
+
+                    <div class="timeline-body">
+                      <strong>Certified ICT Technician</strong>
+
+                      <p class="text-muted">
+                        Officially recognized under Italian Law (Art. 14, Law 845/78) by the Province of Perugia,
+                        Umbria Region (Resolution No. 8097 - 2003/12/18)
+                      </p>
+
+                      <p class="mb-1">
+                        I completed a 350-hour training program that covered both theoretical lessons
+                        and hands-on lab work, including:
+                      </p>
+
+                      <ul>
+                        <li>
+                          semiconductor simulation
+                        </li>
+                        <li>
+                          analog and digital electronics
+                        </li>
+                        <li>
+                          computer architecture
+                        </li>
+                        <li>
+                          microprocessors
+                        </li>
+                        <li>
+                          applied electrical engineering and basic programming
+                        </li>
+                      </ul>
+
+                      <p class="mt-1">
+                        I passed the related final oral and written exam with a score of 90/100.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-success">Sept. 2003 - June 2008</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-camera text-bg-success"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="#">
+                        Secondary School Diploma (Humanities Studies Track), S. Cannizzaro High School - Vittoria
+                        (Italy)
+                      </a>
+                    </h3>
+
+                    <div class="timeline-body">
+                      <p>
+                        The curriculum included physics, mathematics, chemistry, literature, philosophy,
+                        Latin, ancient Greek and humanities.
+                        <br>
+                        The institution is known for its rigorous education fostering critical thinking
+                        skills and teaching effective study methods.
+                        <br>
+                        I graduated with a final score of 78/100.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+                <!--begin::timeline item -->
+                <div class="time-label">
+                  <span class="text-bg-info">July 2006 - Sept. 2006</span>
+                </div>
+                <div>
+                  <i class="timeline-icon bi bi-camera-film text-bg-info"></i>
+                  <div class="timeline-item">
+                    <h3 class="timeline-header">
+                      <a href="#">
+                        British Study Centers London Hampstead (UK)
+                      </a>
+                    </h3>
+
+                    <div class="timeline-body">
+                      <p class="mb-1">
+                        I was awarded a scholarship for an advanced English course focused on both written and
+                        spoken communication with native speakers.
+                      </p>
+
+                      <p class="mb-1">
+                        I achieved an "Upper Intermediate" level certificate after a written and oral examination
+                        with the following scores:
+                      </p>
+
+                      <ul>
+                        <li>Speaking 4/5</li>
+                        <li>Listening 4/5</li>
+                        <li>Reading 4/5</li>
+                        <li>Writing 4/5</li>
+                      </ul>
+
+                      <p class="mb-1 mt-1">
+                        Highlights of the course activities:
+                      </p>
+
+                      <ul>
+                        <li>
+                          participated in daily debates and role-play exercises to improve fluency in real-world
+                          scenarios
+                        </li>
+
+                        <li>
+                          led short presentations on cultural topics to native speaking audience
+                        </li>
+
+                        <li>
+                          engaged in writing workshops, providing and receiving feedback to refine written
+                          communication
+                        </li>
+
+                        <li>
+                          took part in listening sessions using authentic English audio
+                          (mostly interviews and films)
+                        </li>
+
+                        <li>
+                          prepared and passed a mock job interview, receiving feedback from native speakers
+                        </li>
+
+                      </ul>
+
+                      <p class="mt-1">
+                        The teacher's and director's remarks were:
+                        <em>
+                          "Very well behaved, active participation, able to use English in a variety of everyday
+                          situations."
+                        </em>
+                        <br>
+                        — John Ben Solieau (Teacher)
+                        <br>
+                        — Paul Evans (Director of Studies)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end::timeline item -->
+
+              </div>
+              <!--end::Timeline section-->
+            </div>
+            <!--end::col-12 -->
+          </div>
+          <!--end::Education section-->
+
+          <!--Intentionally added for printing purposes-->
+          <div style="height: 440px;"></div>
+
+          <!--begin::Interests section-->
+          <div class="row">
+            <div class="col-12">
+              <div class="card card-primary card-outline">
+                <div class="card-header">
+                  <h3 class="card-title mb-0">Interests</h3>
+                </div>
+                <div class="card-body">
+                  <p>I'm deeply interested in emerging technologies, particularly:</p>
+                  <ul>
+                    <li>
+                      <strong>blockchain technology and cryptocurrencies</strong>
+                      <p class="text-muted mb-2">
+                        I believe it’s one of the most promising and revolutionary innovations of our time. Its
+                        potential goes far beyond cryptocurrencies.
+                        <br>
+                        I think it has a lot of real-world applications across various industries, such as product
+                        traceability in the food supply chain.
+                        <br>
+                        So, I actively follow its evolution and regularly seek high-quality and out-of-the-box white
+                        papers that can improve and optimize existing processes.
+                        <br>
+                        I occasionally engage in cryptocurrency scalping to stay sharp on trading strategies and market
+                        dynamics.
+                      </p>
+                    </li>
+
+                    <li>
+                      <strong>IoT</strong>
+                      <p class="text-muted">
+                        I am also involved in various IoT projects using Home Assistant for home automation, as well as
+                        indoor and outdoor farming systems.
+                        <br>
+                        These include environmental and soil monitoring, smart irrigation and indoor plant cultivation
+                        setups.
+                      </p>
+                    </li>
+                  </ul>
+
+                  <p>
+                    I love traveling because it gives me the chance to meet new people and learn from their experiences
+                    and perspectives.
+                  </p>
+
+                  <p>I've been playing guitar since I was a teenager and I enjoy riding fast motorcycles,
+                    especially on challenging tracks.
+                    <br>
+                    Basketball is another major passion of mine.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--end::col-12 -->
+          </div>
+          <!--end::Interests section-->
+        </div>
+        <!--end::Container-->
+      </div>
+      <!--end::App Content-->
+
+    </main>
+    <!--end::App Main-->
+
+    <!--begin::Footer-->
+    <footer class="app-footer">
+      <div class="float-end d-none d-sm-inline">Last update: 2025-06-13</div>
+    </footer>
+    <!--end::Footer-->
+
+  </div>
+  <!--end::App Wrapper-->
+
+  <!--begin::Script-->
+  <script src="static/js/bootstrap.min.js"></script>
+  <!--end::Script-->
+</body>
+<!--end::Body-->
+
+</html>
