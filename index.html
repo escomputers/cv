@@ -5,11 +5,15 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Emiliano Spada's CV</title>
+    <title>Emiliano Spada | Cloud Native Engineer</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="title" content="Emiliano Spada's CV" />
     <meta name="author" content="Emiliano Spada" />
+
+    <!--begin::favicon-->
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="static/images/favicon.png">
+    <!--end::favicon-->
 
     <!--begin::Fonts-->
     <link
@@ -56,14 +60,30 @@
     <link href="static/css/fontawesome/css/brands.min.css" rel="stylesheet" />
     <link href="static/css/fontawesome/css/solid.min.css" rel="stylesheet" />
     <!--end::Fontawesome icons-->
-
     <style>
-    .badge-wrap{
-	  white-space: normal;
-	  word-break: break-word;
-	  line-height: 1.2;        
-	  max-width: 100%;
-	  display: inline-block;
+    /* Keep the CV readable on wide displays while preserving Bootstrap's
+      fluid layout below this width. */
+    .container-fluid {
+      max-width: 1320px;
+      margin-inline: auto;
+    }
+
+    /* Profile and Presentation stack below Bootstrap's md breakpoint,
+      so the desktop divider must be removed on smaller screens. */
+    @media (max-width: 767.98px) {
+      .profile-column {
+        border-right: 0 !important;
+      }
+    }
+
+    /* Allow long client badges to wrap instead of overflowing
+      their timeline cards on narrow screens. */
+    .badge-wrap {
+      white-space: normal;
+      word-break: break-word;
+      line-height: 1.2;
+      max-width: 100%;
+      display: inline-block;
     }
   </style>
 
@@ -84,7 +104,8 @@
           <div class="row">
 
             <!--begin::Profile section-->
-            <div class="col-12 col-md-5 border-end pe-4">
+            <div
+              class="col-12 col-md-5 border-end pe-md-4 mb-3 mb-md-0 profile-column">
               <div class="card card-primary card-outline">
                 <div class="card-body box-profile">
                   <div class="text-center">
@@ -140,7 +161,7 @@
             <!--end::Profile section-->
 
             <!--begin::Presentation + Favourite Quote sections-->
-            <div class="col-12 col-md-7 ps-4">
+            <div class="col-12 col-md-7 ps-md-4">
               <div class="card card-primary card-outline">
 
                 <div class="card-header">
@@ -224,9 +245,8 @@
           <!--begin::Container-->
           <div class="container-fluid">
 
-            <!--begin::Certifications + Interests sections-->
+            <!--begin::Certifications section-->
             <div class="row">
-              <!--begin::Certifications section-->
               <div class="col-12">
                 <div class="card card-primary card-outline">
                   <div class="card-header">
@@ -298,7 +318,6 @@
               <!--end::Certifications section-->
 
             </div>
-            <!--end::Certifications + Interests sections-->
 
             <!--begin::Work Experience header-->
             <div class="row">
@@ -461,7 +480,8 @@
                           <!--begin::customer-->
                           <li class="list-group-item">
                             <p class="text-muted mb-1">
-                              <span class="badge bg-secondary me-1">Client:
+                              <span
+                                class="badge bg-secondary me-1 badge-wrap">Client:
                                 Intesa San Paolo S.p.A.</span>
                               One of the largest European banking groups
                             </p>
@@ -574,7 +594,9 @@
                           <!--begin::customer-->
                           <li class="list-group-item">
                             <p class="text-muted mb-1">
-                              <span class="badge bg-secondary me-1">Client: CSI
+                              <span
+                                class="badge bg-secondary me-1 badge-wrap">Client:
+                                CSI
                                 Piemonte S.p.A.</span>
                               Public consortium providing IT services for public
                               administration
@@ -618,7 +640,8 @@
 
                           <li class="list-group-item">
                             <p class="text-muted mb-1">
-                              <span class="badge bg-secondary me-1">Client:
+                              <span
+                                class="badge bg-secondary me-1 badge-wrap">Client:
                                 Punch Torino S.p.A.</span>
                               Engineering company specialized in automotive
                               systems,
@@ -910,7 +933,7 @@
 
             <!--begin::Skills Map header-->
             <div class="row">
-              <div class="col-12 col-lg-6">
+              <div class="col-12">
                 <h3 class="mb-0">Skills Map</h3>
               </div>
             </div>
@@ -927,8 +950,8 @@
             <!--begin::Skills Map section-->
             <div class="row">
 
-              <!--First table on the left-->
-              <div class="col-6">
+              <!-- First skills table -->
+              <div class="col-12 col-lg-6">
                 <table class="table table-sm w-100" style="table-layout:fixed;">
                   <colgroup>
                     <col style="width:55%;">
@@ -1291,8 +1314,8 @@
                 </table>
               </div>
 
-              <!--Second table on the right-->
-              <div class="col-6">
+              <!-- Second skills table -->
+              <div class="col-12 col-lg-6">
                 <table class="table table-sm w-100" style="table-layout:fixed;">
                   <colgroup>
                     <col style="width:55%;">
